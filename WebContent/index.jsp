@@ -1,5 +1,6 @@
 <%@page import="updatedb.*"%>
 <%@page import="queryPackage.*"%>
+<%@page import="webmanagement.*"%>
 <%@include file="./header.jsp"%>
 
 <script>
@@ -12,7 +13,7 @@
 
    <div id="left-col">
       <div id="left-index-logo">
-         <a href="/LegalMapping/Controller?action=home2"><img src="./images/unhcr_logo.jpg"></a>
+         <a href="/<%out.print(Versioning.getVersion());%>/Controller?action=home2"><img src="./images/unhcr_logo.jpg"></a>
       </div>
       <div id="left-index">
          <ul>
